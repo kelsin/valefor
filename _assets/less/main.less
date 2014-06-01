@@ -6,7 +6,11 @@ h1 { margin-top: 0; }
 
 .site-wrapper { height: 100%; min-height: 100%; position: relative; overflow: hidden; }
 
-.nav { position: absolute; top: 0; left: 0; transform: rotate(-45deg);}
+.nav {
+  a {  transform: rotate(-45deg); position: absolute; top: 0; left: 0; display: block; }
+  a.ayashi-link { right: 0; bottom: 0; left: auto; top: auto; }
+  a.valefor-link { display: none; }
+}
 
 .panel { background: green;
   &.panel-valefor { height: 100%; min-height: 100%; }

@@ -7,11 +7,10 @@ pygments: false
 gems:
   - jekyll-sitemap
 exclude:
-  - .bowerrc
   - .bundle
-  - bower.json
   - Gemfile
   - Gemfile.lock
   - gulpfile.js
   - node_modules
   - package.json
+  - README.md

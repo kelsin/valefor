@@ -371,13 +371,23 @@ h1 {
   position: relative;
   overflow: hidden;
 }
-.nav {
-  position: absolute;
-  top: 0;
-  left: 0;
+.nav a {
   -webkit-transform: rotate(-45deg);
   -ms-transform: rotate(-45deg);
   transform: rotate(-45deg);
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: block;
+}
+.nav a.ayashi-link {
+  right: 0;
+  bottom: 0;
+  left: auto;
+  top: auto;
+}
+.nav a.valefor-link {
+  display: none;
 }
 .panel {
   background: green;
