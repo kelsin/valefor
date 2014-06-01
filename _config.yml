@@ -1,0 +1,17 @@
+name: Valefor.com
+baseurl: /
+url: http://www.valefor.com
+encoding: UTF-8
+markdown: redcarpet
+pygments: false
+gems:
+  - jekyll-sitemap
+exclude:
+  - .bowerrc
+  - .bundle
+  - bower.json
+  - Gemfile
+  - Gemfile.lock
+  - gulpfile.js
+  - node_modules
+  - package.json

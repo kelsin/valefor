@@ -1,0 +1,25 @@
+{
+  "name": "valefor",
+  "version": "0.0.1",
+  "description": "http://www.valefor.com",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:kelsin/valefor.git"
+  },
+  "author": "Christopher Giroir <kelsin@valefor.com> (http://mx.kelsin.net)",
+  "contributors": [
+    "Caitlin Bailey <ayashi@valefor.com> (http://www.caiters.com)"
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kelsin/valefor/issues"
+  },
+  "homepage": "http://www.valefor.com",
+  "devDependencies": {
+    "gulp": "^3.6.2",
+    "gulp-less": "^1.2.3",
+    "gulp-concat": "^2.2.0",
+    "gulp-autoprefixer": "0.0.7",
+    "gulp-util": "^2.2.14"
+  }
+}
